@@ -1,0 +1,63 @@
+body{
+    font-family: roboto,arial;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(100, 100,100);
+}
+
+h1{
+    text-align: center;
+    color: azure;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+    padding: 20px;border-radius: 8px;
+}
+
+fieldset{
+    border: 2px solid aqua;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: brown;
+}
+
+legend{
+    font-weight: bold;
+    text-align: center;
+    color: bisque;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: azure;
+}
+input,textarea{
+    width: calc(100% - 1px);
+    padding:8px ;
+    border: 1px solid aqua;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 10px;
+    padding: 10px;
+    background-color: brown;
+    width: 600px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: aqua;
+}

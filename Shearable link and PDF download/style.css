@@ -1,0 +1,86 @@
+body {
+    font-family: roboto, arial;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(100, 100,100);
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: 2px solid aqua;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: brown;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: bisque;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: azure;
+}
+
+input, textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    border: 1px solid aqua;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    background-color: #a52a2a;
+    width: 100%;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    border-color: aliceblue;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+    border: 2px solid lightblue;
+    border-radius: 8px;
+}
+
+#resumeOutput h2 {
+    color: lightblue;
+}
+
+#resumeOutput img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
